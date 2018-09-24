@@ -16,7 +16,7 @@ We appreciate you taking the time to participate in HCaptcha's Bug Bounty Progra
 * If the report qualifies for a bounty, we will set a risk level of severity and the reward size within five business days.
 * Resolve qualifying vulnerabilities within 90 days (1 day for critical, 1-2 weeks for high, 4-8 weeks for medium and 90 days for low issues). More complex issues may require longer to fix. If you have a question regarding the remediation timeline, please inquire on the relevant report.
 * Notify you within five business days once an issue has been resolved.
-* The value of rewards paid out will vary depending on Severity. The severity is calculated according to the OWASP risk rating model based on Impact and Likelihood: 
+* The value of rewards paid out will vary depending on Severity. The severity is calculated according to the [OWASP risk rating model based on Impact and Likelihood](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology): 
 * Please allow up to one week from the time the report was approved and validated to receive your bounty payment. Reward sizes are guided by the rules below and payable in USD or HCaptcha.
     - Critical: $1,000 - $2,000
     - High: $500 - $1000

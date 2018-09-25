@@ -37,7 +37,6 @@ Any design or implementation issue that substantially affects the confidentialit
 
 * Smart contracts and code at: [Open Source Code](https://github.com/HCaptcha)
 * The live system: [live](https://www.hcaptcha.com)
-* Our testing system [testing](www.hcaptcha.com)
 
 ### Out-Of-Scope
 * Phishing HCaptcha workers, users, clients and anyone who is related with HCaptcha.

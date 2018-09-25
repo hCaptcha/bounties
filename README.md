@@ -5,7 +5,8 @@
 
 HCaptcha’s Bug Bounty Program provides bounties for identifying vulnerability bugs. Our development and security teams have made every effort to eliminate all bugs in our systems, however, there's always the chance that we might have missed some potential vulnerabilities. We appreciate you working with us around any bug you discover. We do offer rewards to show our appreciation. Before getting started, please see our Service Level Agreements & Eligibility sections for more details.
 
-**Do not submit any vulnerability to** [github Issues] To any public forum. For bounty program all issues must be emailed to posix4e@gmail.com. If you are uncomfortable releasing the information to posix4e@gmail.com we have a variety of trained bug bounty third party developers we can point you to.
+**Do not submit any vulnerability to** [github Issues] To any public forum. For bounty program all issues please Keybase posix4e.  
+
 
 ### Service Level Agreements
 We appreciate you taking the time to participate in HCaptcha's Bug Bounty Program. We have invested time and energy into our program to make it the best it can be. There are some things you can expect from us when participating in our program:

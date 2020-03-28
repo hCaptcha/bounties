@@ -3,12 +3,14 @@
 
 # hCaptcha Bug Bounty Program
 
-hCaptcha’s Bug Bounty Program provides bounties for identifying vulnerability bugs. Our development and security teams have made every effort to eliminate all bugs in our systems, however, there is always the chance that we might have missed some potential vulnerabilities. We appreciate you working with us on any bug you discove, and we do offer rewards to show our appreciation. Before getting started, please see our Service Level Agreements & Eligibility sections for more details.
+The hCaptcha Bug Bounty Program provides bounties for identifying vulnerability bugs. Our development and security teams make every effort to eliminate all bugs in our systems, but there is always the chance that we might have missed a potential vulnerability. We appreciate you working with us on any bug you discover, and we offer rewards to show our appreciation.
+
+Before getting started, please see our Service Level Agreements & Eligibility sections for more details.
 
 **Do not submit any vulnerability to** GitHub Issues or any public forum. For all bounty program issues please email support@hcaptcha.com and CC security@hcaptcha.com.
 
 ### Service Level Agreements
-We appreciate you taking the time to participate in hCaptcha's Bug Bounty Program. We have invested time and energy into our program to make it the best it can be. Here is what you can expect from us when participating in our program:
+We appreciate you taking the time to participate in the hCaptcha Bug Bounty Program. We have invested time and energy into our program to make it the best it can be. Here is what you can expect from us when participating in our program:
 
 #### hCaptcha will make our best effort to:
 * Provide an initial response on all reports within two business day.
@@ -17,7 +19,10 @@ We appreciate you taking the time to participate in hCaptcha's Bug Bounty Progra
 * Resolve qualifying vulnerabilities within 90 days (1 day for critical, 1-2 weeks for high, 4-8 weeks for medium and 90 days for low issues). More complex issues may require longer to fix. If you have a question regarding the remediation timeline, please inquire on the relevant report.
 * Notify you within five business days once an issue has been resolved.
 * The value of rewards paid out will vary depending on Severity. The severity is calculated according to the [OWASP risk rating model based on Impact and Likelihood](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology): 
-* Please allow up to one week from the time the report was approved and validated to receive your bounty payment. Reward sizes are guided by the rules below and payable in USD or HCaptcha.
+* Please allow up to one week from the time the report was approved and validated to receive your bounty payment. 
+
+Reward sizes are guided by the rules below and payable in USD via PayPal. If you prefer, you may also elect to have your reward donated to a registered charity of your choice that accepts online donations, subject to approval of the charity.
+
     - Larger or Critical: $100 - $500
     - Small: up to $100
     

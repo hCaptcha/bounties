@@ -3,7 +3,7 @@
 
 # hCaptcha Bug Bounty Program
 
-HCaptcha’s Bug Bounty Program provides bounties for identifying vulnerability bugs. Our development and security teams have made every effort to eliminate all bugs in our systems, however, there is always the chance that we might have missed some potential vulnerabilities. We appreciate you working with us on any bug you discove, and we do offer rewards to show our appreciation. Before getting started, please see our Service Level Agreements & Eligibility sections for more details.
+hCaptcha’s Bug Bounty Program provides bounties for identifying vulnerability bugs. Our development and security teams have made every effort to eliminate all bugs in our systems, however, there is always the chance that we might have missed some potential vulnerabilities. We appreciate you working with us on any bug you discove, and we do offer rewards to show our appreciation. Before getting started, please see our Service Level Agreements & Eligibility sections for more details.
 
 **Do not submit any vulnerability to** GitHub Issues or any public forum. For all bounty program issues please email support@hcaptcha.com and CC security@hcaptcha.com.
 
@@ -33,7 +33,7 @@ The following requirements must be adhered to in order to participate in hCaptch
 ### Scope
 Any design or implementation issue that substantially affects the confidentiality or integrity of user data is likely to be within the scope of the program.
 
-* Smart contracts and code at: [Open Source Code](https://github.com/HCaptcha)
+* Smart contracts and code at: [Open Source Code](https://github.com/hCaptcha)
 * The live system: [live](https://www.hcaptcha.com)
 
 ### Out-Of-Scope

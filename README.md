@@ -33,15 +33,14 @@ The following requirements must be adhered to in order to participate in hCaptch
 * First come, first served - only the first person to identify a particular vulnerability will qualify for a bounty. Any additional reports will be considered as duplicates and will not qualify.
 * Play it safe - all testing must be performed on test accounts under your control. Any attacks against other users without provable express consent are not allowed and may result in a ban from our program. If a particular issue is severe enough that a PoC in itself may expose other users’ data, please ask us for help first so we can work together on how to safely demonstrate the bug. 
 * Don't disclose too early - to protect our users, please keep all identified vulnerability details between you and us until we've had a chance to fix the issue. This includes things like posting an obscured video of an issue on Twitter prior to confirmation of a deployed fix; you may think you have concealed critical details, but doing so at minimum alerts the blackhat community to an issue and at worst unintentionally creates early disclosure. Public disclosure prior to us notifying you of the fix may result in a ban from the program. If you have questions regarding the remediation timeline, please inquire on the relevant report.
-* No social engineering - bugs that require social engineering to exploit (e.g. tricking someone into clicking a link) may qualify, but please do not actually attempt to socially engineer another user, HCaptcha team members, etc., during your testing. Providing a clear explanation of how social engineering could be used in conjunction with an identified vulnerability is sufficient.
+* No social engineering - bugs that require social engineering to exploit (e.g. tricking someone into clicking a link) may qualify, but please do not actually attempt to socially engineer another user, hCaptcha team members, etc., during your testing. Providing a clear explanation of how social engineering could be used in conjunction with an identified vulnerability is sufficient.
 
 ### Scope
 Any design or implementation issue that substantially affects the confidentiality or integrity of user data is likely to be within the scope of the program.
 
-* Smart contracts and code at: [Open Source Code](https://github.com/hCaptcha)
 * The live captcha system: [main page](https://www.hcaptcha.com)
 * The live dashboard: [dashboard](https://dashboard.hcaptcha.com/login)
-
+* Smart contracts and code at: [Open Source Code](https://github.com/hCaptcha)
 
 ### Out-Of-Scope
 * Phishing hCaptcha employees, users, clients, or anyone who has a business relationship with hCaptcha.

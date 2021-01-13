@@ -23,7 +23,7 @@ We appreciate you taking the time to participate in the hCaptcha Bug Bounty Prog
 
 Reward sizes are guided by the rules below and payable in USD via PayPal. If you prefer, you may also elect to have your reward donated to a registered charity of your choice that accepts online donations, subject to approval of the charity.
 
-    - Larger or Critical: $100 - $500
+    - Medium, Large or Critical: $100 - $1000
     - Small: up to $100
     
 ### Eligibility

@@ -45,3 +45,17 @@ Any design or implementation issue that substantially affects the confidentialit
 ### Out-Of-Scope
 * Phishing hCaptcha employees, users, clients, or anyone who has a business relationship with hCaptcha.
 * [Known issues](https://github.com/hcaptcha/bounties/issues)
+
+### Common False Positive Reports
+
+#### TLS version / cipher suite
+Many simple scanners (e.g. Burp Suite) will report that hcaptcha.com endpoints support weak TLS ciphers, or old TLS versions. This is not really relevant from a security perspective:
+- **unauthenticated** public endpoints do indeed support TLS 1.0, since the hCaptcha service supports browsers as old as IE8. Old browsers do not support newer TLS versions, so this is mandatory for compatibility.
+- **authenticated** endpoints will appear to work to the scanner, but in fact they simply connect to a service that does nothing but return a message instructing the user to use a modern TLS version and cipher suite.
+
+Example:
+
+```
+$ curl --tlsv1.1 --tls-max 1.1 https://dashboard.hcaptcha.com
+Please use TLS version 1.2 or higher.
+```

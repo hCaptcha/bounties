@@ -36,26 +36,29 @@ The following requirements must be adhered to in order to participate in hCaptch
 * No social engineering - bugs that require social engineering to exploit (e.g. tricking someone into clicking a link) may qualify, but please do not actually attempt to socially engineer another user, hCaptcha team members, etc., during your testing. Providing a clear explanation of how social engineering could be used in conjunction with an identified vulnerability is sufficient.
 
 ### Scope
-Any design or implementation issue that substantially affects the confidentiality or integrity of user data is likely to be within the scope of the program.
+Any design or implementation issue that substantially affects the confidentiality or integrity of user data or correctness of system operation is likely to be within the scope of the program.
 
-* The live captcha system: [main page](https://www.hcaptcha.com)
-* The live dashboard: [dashboard](https://dashboard.hcaptcha.com/login)
-* Smart contracts and code at: [Open Source Code](https://github.com/hCaptcha)
+* The website and other public endpoints under hcaptcha.com: [main page](https://www.hcaptcha.com)
+* The dashboard: [dashboard](https://dashboard.hcaptcha.com/login)
+* Any public code at: [Open Source Code](https://github.com/hCaptcha)
 
-### Out-Of-Scope
+### Out of Scope
 * Phishing hCaptcha employees, users, clients, or anyone who has a business relationship with hCaptcha.
 * [Known issues](https://github.com/hcaptcha/bounties/issues)
 
 ### Common False Positive Reports
 
 #### TLS version / cipher suite
-Many simple scanners (e.g. Burp Suite) will report that hcaptcha.com endpoints support weak TLS ciphers, or old TLS versions. This is not really relevant from a security perspective:
+Scanners (e.g. Burp Suite) may report that some hcaptcha.com endpoints support weak TLS ciphers, or old TLS versions. 
+
+This is intentional:
+
 - **unauthenticated** public endpoints do indeed support TLS 1.0, since the hCaptcha service supports browsers as old as IE8. Old browsers do not support newer TLS versions, so this is mandatory for compatibility.
-- **authenticated** endpoints will appear to work to the scanner, but in fact they simply connect to a service that does nothing but return a message instructing the user to use a modern TLS version and cipher suite.
+- **authenticated** endpoints like the dashboard service and accounts APIs require TLS 1.2+.
 
 Example:
 
 ```
 $ curl --tlsv1.1 --tls-max 1.1 https://dashboard.hcaptcha.com
-Please use TLS version 1.2 or higher.
+curl: error:SSL routines:ST_CONNECT:tlsv1 alert protocol version
 ```

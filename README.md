@@ -46,6 +46,11 @@ Any design or implementation issue that substantially affects the confidentialit
 ### Out of Scope
 * Phishing hCaptcha employees, users, clients, or anyone who has a business relationship with hCaptcha.
 * [Known issues](https://github.com/hcaptcha/bounties/issues)
+* Informational issues, best practices, and other non-vulnerabilities.
+
+As a rule of thumb, if the behavior is clearly intentional do not report it because you think it should be implemented differently.
+
+For example, "you should consider implementing BIMI" is not a vulnerability, and is not eligible for a bounty.
 
 ### Common False Positive Reports
 

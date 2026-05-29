@@ -14,8 +14,8 @@ We appreciate you taking the time to participate in the hCaptcha Bug Bounty Prog
 
 #### hCaptcha will make our best effort to:
 * Provide an initial response on all reports within two business days.
-* Let you know if your report qualifies for a bounty within five business days.
-* If the report qualifies for a bounty, we will set a risk level of severity and the reward size within five business days.
+* Let you know if your report qualifies for a bounty within 10 business days.
+* If the report qualifies for a bounty, we will set a risk level of severity and the reward size within 10 business days.
 * Resolve qualifying vulnerabilities within 90 days (1 day for critical, 1-2 weeks for high, 4-8 weeks for medium and 90 days for low issues). More complex issues may require longer to fix. If you have a question regarding the remediation timeline, please inquire on the relevant report.
 * Notify you within five business days once an issue has been resolved.
 * The value of rewards paid out will vary depending on Severity. The severity is calculated according to the [OWASP risk rating model based on Impact and Likelihood](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology): 
@@ -68,3 +68,9 @@ Example:
 $ curl --tlsv1.1 --tls-max 1.1 https://dashboard.hcaptcha.com
 curl: error:SSL routines:ST_CONNECT:tlsv1 alert protocol version
 ```
+
+### Guidelines for use of AI Agents
+
+- If you are using an AI agent to submit reports, disclose this at the top of the report.
+- No report from an AI agent not under human direction and review will be accepted without a working proof of concept.
+- Reports made by agents are not eligible for bounties unless we score them High or Critical, at our sole discretion.
